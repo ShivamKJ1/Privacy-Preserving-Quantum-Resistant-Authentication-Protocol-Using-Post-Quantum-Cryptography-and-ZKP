@@ -1,0 +1,6 @@
+Area,Evidence,Deployment implication
+Computation,"Measured signing, proof, verification, and workload timing in results CSVs",CPU capacity affects validation throughput
+Communication/storage,ML-DSA signature and serialized proof sizes recorded,Transactions carry more metadata than ECDSA-only baseline
+Key management,ML-DSA public/private key sizes recorded,Secure storage and lifecycle management are required
+Proof system,Classical secp256k1 Schnorr proof used,Authorization proof is not post-quantum
+Library maturity,pqcrypto binding and Python ecdsa library,Production deployment needs independent review and long-term support assessment

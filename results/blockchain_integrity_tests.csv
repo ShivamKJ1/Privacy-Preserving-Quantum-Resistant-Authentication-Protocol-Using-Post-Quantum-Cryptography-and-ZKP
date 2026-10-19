@@ -1,0 +1,5 @@
+test,chain_valid,expected_valid,passed
+Valid chain,True,True,True
+Modified transaction record,False,False,True
+Modified block header,False,False,True
+Broken previous-hash link,False,False,True

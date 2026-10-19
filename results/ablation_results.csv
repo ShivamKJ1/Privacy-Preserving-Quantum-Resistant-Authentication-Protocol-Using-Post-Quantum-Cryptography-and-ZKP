@@ -1,0 +1,4 @@
+configuration,authentication_ms,verification_ms,end_to_end_ms,communication_bytes,Authentication,Privacy Authorization,Quantum-Resistant
+Conventional ECDSA,0.40403500000000003,1.3810900000000002,1.7856139999999998,64.0,Yes,No,No
+PQC + ZKP,5.654481,1.4554939999999998,7.110544,2643.0,Yes,Yes,Yes
+PQC-only ML-DSA,4.965495000000001,0.105276,5.07141,2420.0,Yes,No,Yes

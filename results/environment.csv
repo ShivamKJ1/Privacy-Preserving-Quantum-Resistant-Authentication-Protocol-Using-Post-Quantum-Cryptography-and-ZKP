@@ -1,0 +1,2 @@
+python,platform,processor,cpu_count,pqcrypto,ecdsa,pandas,matplotlib,trial_count,gpu_used,workload,ram_bytes
+3.14.7,Windows-11-10.0.26200-SP0,"AMD64 Family 25 Model 117 Stepping 2, AuthenticAMD",16,1.0.0,0.19.2,3.0.6,3.11.1,100,False,CPU-oriented cryptographic prototype,16356941824

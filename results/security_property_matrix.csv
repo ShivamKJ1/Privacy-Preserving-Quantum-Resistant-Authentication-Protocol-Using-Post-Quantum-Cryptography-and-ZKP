@@ -1,0 +1,6 @@
+Attack / Requirement,Conventional,PQC-only,PQC + ZKP
+Transaction tampering,ECDSA signature detects altered signed payload,ML-DSA signature detects altered signed payload,ML-DSA and transaction-bound proof detect alteration
+Signature forgery,Classical ECDSA resistance,ML-DSA resistance,ML-DSA resistance
+Quantum-resistant authentication,Not provided,Provided by ML-DSA,Provided by ML-DSA
+Authorization privacy,No credential-proof layer,No credential-proof layer,Witness remains local; proof is public
+Unauthorized access,Application policy required,Application policy required,Unregistered credential proof rejects

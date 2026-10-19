@@ -1,0 +1,7 @@
+test,expected_accepted,pqc_valid,zkp_valid,accepted,passed,reason
+Valid transaction,True,True,True,True,True,Authentication and authorization successful
+Modified transaction,False,False,False,False,True,ML-DSA signature invalid
+Invalid signature,False,False,True,False,True,ML-DSA signature invalid
+Wrong user,False,False,True,False,True,ML-DSA signature invalid
+Invalid ZKP,False,True,False,False,True,Authorization proof invalid
+Valid PQC but unauthorized user,False,True,False,False,True,Authorization proof invalid
